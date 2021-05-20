@@ -14,16 +14,16 @@ const TREE_DATA: MegaMenu[] = [
     icon: 'settings',
     menu: [
       {
-        name: 'General Master',
+        name: 'Setup 1',
         icon: 'manage_accounts',
         menu: [
           {
-            name: 'Currency',
-            menu: [{ name: 'Initiate' }, { name: 'Listing' }]
+            name: 'Setup 1.1',
+            menu: [{ name: 'Setup 1.1.1' }, { name: 'Setup 1.1.2' }]
           },
           {
-            name: 'Geography',
-            menu: [{ name: 'Initiate' }, { name: 'Listing' }]
+            name: 'Setup 2.1',
+            menu: [{ name: 'Setup 2.1.1' }, { name: 'Setup 2.1.2' }]
           }
         ]
       },
@@ -31,45 +31,9 @@ const TREE_DATA: MegaMenu[] = [
         name: 'Templates',
         icon: 'description',
         menu: [
-          { name: 'Alert', menu: [{ name: 'Initiate' }, { name: 'Listing' }] },
           {
-            name: 'Document Designer',
-            menu: [{ name: 'Initiate' }, { name: 'Listing' }]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    name: 'RMS',
-    icon: 'find_replace',
-    menu: [
-      {
-        name: 'Corporate Masters',
-        icon: 'corporate_fare',
-        menu: [
-          {
-            name: 'Corporate Client',
-            menu: [{ name: 'Initiate' }, { name: 'Listing' }]
-          }
-        ]
-      },
-      {
-        name: 'Transactions',
-        icon: 'paid',
-        menu: [
-          {
-            name: 'Invoice Entry',
-            icon: 'receipt_long',
-            menu: [{ name: 'Initiate' }, { name: 'Listing' }]
-          },
-          {
-            name: 'Manual Reconciliation',
-            menu: [{ name: 'Initiate' }, { name: 'Listing' }]
-          },
-          {
-            name: 'Undo Reconciliation',
-            menu: [{ name: 'Initiate' }, { name: 'Listing' }]
+            name: 'Template 1.1',
+            menu: [{ name: 'Template 1.1.1' }, { name: 'Template 1.1.2' }]
           }
         ]
       }
